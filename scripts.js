@@ -249,7 +249,7 @@ if (month > 0 && month <= 12) {
     }
 }
 if (!correct)
-    alert ("Incorrect date!");
+    alert("Incorrect date!");
 else {
     if (day == 31 && month == 12) {
         day = 1;
@@ -266,5 +266,5 @@ else {
     }
     else
         day++;
+    alert(`Next date is ${day}.${month}.${year}`);
 }
-alert (`Next date is ${day}.${month}.${year}`);
